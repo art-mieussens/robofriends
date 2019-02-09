@@ -1,11 +1,7 @@
 import React from 'react';
-import Card from './card';
+import Card from './Card';
 
 const CardList = ({ robots }) => {
-    console.log(CardList);
-    if (false) {
-        throw new Error('NOOOOOO!');
-    }
     return (
         <div>
             {
